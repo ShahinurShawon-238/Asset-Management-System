@@ -31,7 +31,7 @@
                 <li class="has-sub">
                     <a class="sidenav-item-link" href="{{route('shop')}}">
                         <i class="mdi mdi-store"></i>
-                        <span class="nav-text">Shops</span> <b class="caret"></b>
+                        <span class="nav-text">Shops / Flats</span> <b class="caret"></b>
                     </a>
                 </li>
                 <li class="has-sub">

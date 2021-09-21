@@ -3,7 +3,7 @@
 <div class="col-lg-12">
     <div class="card card-default">
         <div class="card-header card-header-border-bottom">
-            <h2>Update Shop</h2>
+            <h2>Update Shop / Flat</h2>
         </div>
         <div class="card-body">
             <form action="{{ url('shop/update/'.$shop->id) }}" method="POST">
@@ -21,15 +21,15 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="shop">Shop Number</label>
+                    <label for="shop">Shop / Flat Number</label>
                     <input type="text" class="form-control" id="shop" value="{{$shop->shopNumber}}" name="shop" required>
                 </div>
                 <div class="form-group">
-                    <label for="shopHeight">Shop Height</label>
+                    <label for="shopHeight">Shop / Flat Height</label>
                     <input type="number" class="form-control" id="shopHeight" value="{{$shop->shopHeight}}" name="shopHeight" required>
                 </div>
                 <div class="form-group">
-                    <label for="shopWidth">Shop Width</label>
+                    <label for="shopWidth">Shop / Flat Width</label>
                     <input type="number" class="form-control" id="shopWidth" value="{{$shop->shopWidth}}" name="shopWidth" required>
                 </div>
                 <div class="form-footer pt-4 pt-5 mt-4 border-top">

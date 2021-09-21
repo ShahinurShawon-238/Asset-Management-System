@@ -4,7 +4,7 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="row">
                 <div class="col-md-12">
-                    <a href="{{route('addShop')}}"><button class="btn btn-info">Add Shop</button></a>
+                    <a href="{{route('addShop')}}"><button class="btn btn-info">Add Shop / Flat</button></a>
                     <div class="card">
                         @if(session('success'))
                             <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -21,8 +21,8 @@
                                 
                                 <th scope="col" class="text-center" >Building Name</th>
                                 <th scope="col" class="text-center" >Floor Number</th>
-                                <th scope="col" class="text-center" >Shop Number</th>
-                                <th scope="col" class="text-center" >Shop Size(sq*sq)</th>
+                                <th scope="col" class="text-center" >Shop / Flat Number</th>
+                                <th scope="col" class="text-center" >Shop / Flat Size(sq*sq)</th>
                                 <th scope="col" class="text-center" >Status</th>
                                 <th scope="col" class="text-center" >Action</th>
                             </tr>
